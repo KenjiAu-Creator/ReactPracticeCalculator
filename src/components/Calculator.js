@@ -8,10 +8,11 @@ const Calculator = props => {
 };
 
 const Interface = props => {
+  let title = props.title;
   return (
     // JSX here
     <div>
-      <h1 className="title">Welcome to my Calculator!</h1>
+      <h1 className="title">Welcome to my { title }</h1>
       <form>
         <label for="input-1">Input 1:</label>
         <input type="number" id="input-1"></input>

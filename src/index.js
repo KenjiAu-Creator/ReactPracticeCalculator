@@ -5,7 +5,7 @@ import Interface from './components/Calculator';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Interface />
+    <Interface title="Calculator"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
