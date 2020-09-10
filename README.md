@@ -1,3 +1,8 @@
+# React Practice - Calculator with Prop
+This project is apart of TECHCareers Software Developer program. 
+
+This assignment is meant to challenge your knowledge of state, prop and element rendering in React. React is currently one of the most popular and sought after front end technology at the moment, and having skills with it will greatly increase your employability.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +71,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Requirements
+* Use “npx create-react-app” to start a new React project.
+* Create a “Calculator” component.
+* Use a prop to output a unique heading for the component.
+* Include two input fields that can take in numeric values, in your component return.
+  Create a select (drop down box) which allows the user to choose what operation to apply to the two numeric fields, , in your component return.
+  Your operations must include addition, subtraction, multiplication, and division.
